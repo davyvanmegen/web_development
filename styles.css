@@ -1,6 +1,46 @@
 body {
     font-family:verdana;
     margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: #4a5c86;
+    margin: 20px;
+    padding: 0;
+    display: block;
+    border-radius: 3px
+}
+
+.banner-span {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.image-banner {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    align-items: center;
+}
+
+.image-image {
+    height: 100px;
+    padding: 20px;
+}
+
+.white-text {
+    color: white;
+}
+
+#demo {
+    margin: 20px;
+    padding: 0;
+    width: 100%;
 }
 
 h1 {
@@ -12,8 +52,6 @@ h1 {
 p {
     color:rgb(36, 36, 36);
     text-align: left;
-    background-color: #009985;
-    border: 2px solid rgb(0, 0, 0);
     padding: 20px;
     margin: 20px;
 }
@@ -87,3 +125,4 @@ img.foto {
     
 
 }
+
