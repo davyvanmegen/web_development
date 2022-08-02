@@ -93,7 +93,7 @@ a:hover, a:active {
     display: flex;
     width: 100%;
     height: 60px;
-    background-color: #434242;
+    background-color: #212329;
     margin: 0;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -158,3 +158,28 @@ img.foto {
 
 }
 
+.footer-container {
+    background-color: #212329;
+    padding-bottom: 4rem;
+}
+
+.footer {
+    width: 80%;
+    height: 40vh;
+    background-color: #212329;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
